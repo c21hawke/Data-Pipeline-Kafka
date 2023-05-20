@@ -3,23 +3,23 @@
 - [@c21hawke](https://www.github.com/c21hawke)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/c21hawke)
-# STEP 1
+# STEP 01
 ```bash
 conda create -p venv python=3.8 -y
 ```
-# STEP 2
+# STEP 02
 ```bash
 conda activate ./venv
 ```
-# STEP 3
+# STEP 03
 ```bash
 pip install -r requirements.txt
 ```
-# STEP 4
+# STEP 04
 ```bash
 touch .env
 ```
-# STEP 5: Copy the below text and paste in .env file
+# STEP 05: Copy the below text and paste in .env file
 ```bash
 API_KEY=""
 API_SECRET_KEY=""
@@ -29,7 +29,7 @@ SCHEMA_REGISTRY_API_SECRET=""
 ENDPOINT_SCHEMA_URL=""
 MONGO_DB_URL=""
 ```
-# STEP 6: Follow below screenshots to get kafka keys and secrets
+# STEP 06: Follow below screenshots to get kafka keys and secrets
 - ## Screenshots
     - STEP 01 ![Image](https://github.com/c21hawke/Data-Pipeline-Kafka/blob/main/docs/images/STEP%201.png)
     - STEP 02 ![Image](https://github.com/c21hawke/Data-Pipeline-Kafka/blob/main/docs/images/STEP%202.png)
@@ -50,3 +50,5 @@ MONGO_DB_URL=""
     - STEP 17 ![Image](https://github.com/c21hawke/Data-Pipeline-Kafka/blob/main/docs/images/STEP%2017.png)
     - STEP 18 ![Image](https://github.com/c21hawke/Data-Pipeline-Kafka/blob/main/docs/images/STEP%2018.png)
     - STEP 19 ![Image](https://github.com/c21hawke/Data-Pipeline-Kafka/blob/main/docs/images/STEP%2019.png)
+
+# STEP 07: Now update the .env file with the secrets you have downloaded
