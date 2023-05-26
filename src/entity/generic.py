@@ -20,7 +20,7 @@ class Generic:
     
 
     @classmethod
-    def get_objects(cls, file_path):
+    def get_object(cls, file_path):
         chunk_df = pd.read_csv(file_path, chunksize=10)
         n_row = 0
         for df in chunk_df:
